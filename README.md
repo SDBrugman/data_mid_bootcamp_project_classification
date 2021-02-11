@@ -21,30 +21,30 @@
 - Tableau
 
 ## Business analytics approach 
-Data wrangling:
+#### Data wrangling:
 
 - We removed the null values in Average Balance
 - We kept the outliers, because there was no significant difference on the performance of the model
 - We clustered columns: Household Size, #Credit Cards Held, #Bank Accounts Open, #Homes Owned
 
-Data exploration:
+#### Data exploration:
 - There was class imballance in Offer Accepted, in Overdraft Protection, #Homes Owned, #Bank Accounts Open
 - The Average Balance was really skewed
 - There was no multicollinearity between the features
 - The related feautures to the target are all categorical features
 - The Average Balance has no effect on the customer to accept the credit card or not
 
-Data pre-prossing:
+#### Data pre-prossing:
 - We converted all categoricals, ordinals and numericals
 - We used different scalers to reduce the data between two values, the range 0 and 1. The different scalers we use are Normalizer, StandardScaler, MinMaxScaler and PowerTransformer
 - To deal with the class imbalance we used different sampling technics. these are Under Sampling, Up Sampling and Tomek Links
 
-Data prediction:
+#### Data prediction:
 - For our classification model we used Logistic Regression, K-Neighbors Classifier and Decision Tree
 - We choose the model with the MinMaxScaler, Under Sampling and Logistic Regression
 - We focused on an as much as high possible value for the recall, the accuracy and the Kappa score
 
-Data visualization:
+#### Data visualization:
 - We compared the objectives of the bank managers with our target feature
 - We find most of the objectives has a positive outcome for credit card acceptance, except for Credit Rating
 - We did some more analysis on the Credit Rating, especially the Low value

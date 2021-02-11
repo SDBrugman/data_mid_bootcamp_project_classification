@@ -7,41 +7,32 @@
 
 ## General information
 Situation: 
-The bank wants to understand the  demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card. 
-
-The bank designs a focused marketing study, with 18,000 current bank customers and use existing demographic data that is already available on each customer. 
+- The bank wants to understand the  demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card. 
+- The bank designs a focused marketing study, with 18,000 current bank customers and use existing demographic data that is already available on each customer. 
 
 Objectives: 
-
-Build a model that will provide insight into why some bank customers accept credit card offers. 
-
-There are also other potential areas of opportunities that the bank wants to understand from the data. 
-
-Help the senior management to understand their customers better. 
-
+- Build a model that will provide insight into why some bank customers accept credit card offers. 
+- There are also other potential areas of opportunities that the bank wants to understand from the data. 
+- Help the senior management to understand their customers better. 
 
 ## Technologies
-MySQL
-
-Python
-
-Tableau
-
+- MySQL
+- Python
+- Tableau
 
 ## Business analytics approach 
 Data wrangling:
 
 - We removed the null values in Average Balance
-
-We kept the outliers, because there was no significant difference on the performance of the model
-We clustered columns: Household Size, #Credit Cards Held, #Bank Accounts Open, #Homes Owned
+- We kept the outliers, because there was no significant difference on the performance of the model
+- We clustered columns: Household Size, #Credit Cards Held, #Bank Accounts Open, #Homes Owned
 
 Data exploration:
-There was class imballance in Offer Accepted, in Overdraft Protection, #Homes Owned, #Bank Accounts Open
-The Average Balance was really skewed
-There was no multicollinearity between the features
-The related feautures to the target are all categorical features
-The Average Balance has no effect on the customer to accept the credit card or not
+- There was class imballance in Offer Accepted, in Overdraft Protection, #Homes Owned, #Bank Accounts Open
+- The Average Balance was really skewed
+- There was no multicollinearity between the features
+- The related feautures to the target are all categorical features
+- The Average Balance has no effect on the customer to accept the credit card or not
 
 Data pre-prossing:
 We converted all categoricals, ordinals and numericals

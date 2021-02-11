@@ -6,11 +6,11 @@
 * Recommendations
 
 ## General information
-### Situation: 
+#### Situation: 
 - The bank wants to understand the  demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card. 
 - The bank designs a focused marketing study, with 18,000 current bank customers and use existing demographic data that is already available on each customer. 
 
-### Objectives: 
+#### Objectives: 
 - Build a model that will provide insight into why some bank customers accept credit card offers. 
 - There are also other potential areas of opportunities that the bank wants to understand from the data. 
 - Help the senior management to understand their customers better. 

@@ -30,7 +30,9 @@ Tableau
 
 ## Business analytics approach 
 Data wrangling:
-We removed the null values in Average Balance
+
+- We removed the null values in Average Balance
+
 We kept the outliers, because there was no significant difference on the performance of the model
 We clustered columns: Household Size, #Credit Cards Held, #Bank Accounts Open, #Homes Owned
 

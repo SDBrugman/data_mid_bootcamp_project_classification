@@ -35,24 +35,24 @@ Data exploration:
 - The Average Balance has no effect on the customer to accept the credit card or not
 
 Data pre-prossing:
-We converted all categoricals, ordinals and numericals
-We used different scalers to reduce the data between two values, the range 0 and 1. The different scalers we use are Normalizer, StandardScaler, MinMaxScaler and PowerTransformer
-To deal with the class imbalance we used different sampling technics. these are Under Sampling, Up Sampling and Tomek Links
+- We converted all categoricals, ordinals and numericals
+- We used different scalers to reduce the data between two values, the range 0 and 1. The different scalers we use are Normalizer, StandardScaler, MinMaxScaler and PowerTransformer
+- To deal with the class imbalance we used different sampling technics. these are Under Sampling, Up Sampling and Tomek Links
 
 Data prediction:
-For our classification model we used Logistic Regression, K-Neighbors Classifier and Decision Tree
-We choose the model with the MinMaxScaler, Under Sampling and Logistic Regression
-We focused on an as much as high possible value for the recall, the accuracy and the Kappa score
+- For our classification model we used Logistic Regression, K-Neighbors Classifier and Decision Tree
+- We choose the model with the MinMaxScaler, Under Sampling and Logistic Regression
+- We focused on an as much as high possible value for the recall, the accuracy and the Kappa score
 
 Data visualization:
-We compared the objectives of the bank managers with our target feature
-We find most of the objectives has a positive outcome for credit card acceptance, except for Credit Rating
-We did some more analysis on the Credit Rating, especially the Low value
-We looked at other demographics to get an understanding of relationship between features
+- We compared the objectives of the bank managers with our target feature
+- We find most of the objectives has a positive outcome for credit card acceptance, except for Credit Rating
+- We did some more analysis on the Credit Rating, especially the Low value
+- We looked at other demographics to get an understanding of relationship between features
 
 ## Recommendations
-We recommend to gather more data concerning transactional behavior of the customers, to be able to do a better prediction on one of the objectives, the credit rating, since from the current data the customers which have a low credit rating are most likely to accept the offer 
-We recommend to focus on the customers that have a high probability to accept the credit card offer with the characteristics of owning their home, have a larger household of 3 and got less than two credit cards held
-Based on the current data the best way to offer the credit card is by postcard, but since there might be better options at this moment, ie email (newsletters) and social media something to consider as well
-Another interesting criteria to focus on would be customers with no overdraft protection, who are most likely to accept the offer 
+- We recommend to gather more data concerning transactional behavior of the customers, to be able to do a better prediction on one of the objectives, the credit rating, since from the current data the customers which have a low credit rating are most likely to accept the offer 
+- We recommend to focus on the customers that have a high probability to accept the credit card offer with the characteristics of owning their home, have a larger household of 3 and got less than two credit cards held
+- Based on the current data the best way to offer the credit card is by postcard, but since there might be better options at this moment, ie email (newsletters) and social media something to consider as well
+- Another interesting criteria to focus on would be customers with no overdraft protection, who are most likely to accept the offer 
 

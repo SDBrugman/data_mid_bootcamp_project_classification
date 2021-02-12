@@ -50,6 +50,8 @@
 - We did some more analysis on the Credit Rating, especially the Low value
 - We looked at other demographics to get an understanding of relationship between features
 
+https://public.tableau.com/profile/sheila.brugman#!/vizhome/project_classification_final/ProjectClassification
+
 ## Recommendations
 - We recommend to gather more data concerning transactional behavior of the customers, to be able to do a better prediction on one of the objectives, the credit rating, since from the current data the customers which have a low credit rating are most likely to accept the offer 
 - We recommend to focus on the customers that have a high probability to accept the credit card offer with the characteristics of owning their home, have a larger household of 3 and got less than two credit cards held
